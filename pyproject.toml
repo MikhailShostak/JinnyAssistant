@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "JinnyAssistant"
+version = "0.1.0"
+authors = ["Mikhail Shostak"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "*"
+requests = "*"
+flask = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
