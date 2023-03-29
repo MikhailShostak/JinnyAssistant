@@ -1,6 +1,7 @@
 [tool.poetry]
 name = "JinnyAssistant"
 version = "0.1.0"
+description = "Jinny is an assistant that helps to solve issues on GitHub."
 authors = ["Mikhail Shostak"]
 
 [tool.poetry.dependencies]
