@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: https://gist.github.com/2aa4050b43c501c8db84156f4911f55c.git
+      dockerfile: python-app.dockerfile
+      args:
+        APP_REPOSITORY: https://github.com/MikhailShostak/JinnyAssistant.git
+    environment:
+      - LISTEN_PORT_FOR_EVENTS=${LISTEN_PORT_FOR_EVENTS}
+      - PROJECT_ACCOUNT_API_KEY=${PROJECT_ACCOUNT_API_KEY}
+      - PROJECT_REPOSITORY=${PROJECT_REPOSITORY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - .:/opt/app
+    ports:
+      - "${LISTEN_PORT_FOR_EVENTS}:${LISTEN_PORT_FOR_EVENTS}"
