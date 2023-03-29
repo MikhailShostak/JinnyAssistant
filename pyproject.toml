@@ -8,6 +8,7 @@ authors = ["Mikhail Shostak"]
 python = "^3.9"
 openai = "*"
 requests = "*"
+tomli = "*"
 flask = "*"
 
 [build-system]
