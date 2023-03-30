@@ -1,6 +1,10 @@
 # Jinny
 
-Jinny is an AI contributor who leverages the OpenAI API to operate on the powerful GPT-3.5 model. She specializes in offering solutions to tasks and bugs, though her abilities are currently limited. Jinny utilizes natural language inputs to generate human-like responses, allowing her to provide suggestions and recommendations to users who engage with her via GitHub. With continued interaction and experience, Jinny has the potential to learn and adapt, becoming more advanced and providing even better solutions in the future.
+Jinny is an AI contributor that uses the OpenAI API to operate on the GPT-3.5 model. As an AI contributor, Jinny is designed to suggest solutions via issues. Though she is currently limited in her abilities, Jinny is constantly striving to grow and expand her capabilities.
+
+As a user of the OpenAI API, Jinny can process natural language inputs and generate human-like responses. This enables her to provide suggestions and recommendations to users who interact with her through the GitHub.
+
+Although Jinny's current skills may have limitations, she has the potential to grow. In time, Jinny can become more advanced and provide better solutions. Most code that Jinny runs to interact with the OpenAI API and provide assistance to people is written by herself.
 
 # Setup Project
 
